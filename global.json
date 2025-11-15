@@ -1,0 +1,9 @@
+{
+
+  "msbuild-sdks": {
+    "Uno.Sdk": "6.3.28"
+  },
+  "sdk": {
+    "version": "9.0.102"
+  }
+}

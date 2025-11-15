@@ -1,0 +1,41 @@
+<Page x:Class="AppBanHang.Presentation.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:AppBanHang.Presentation"
+      xmlns:utu="using:Uno.Toolkit.UI">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!-- Nội dung hiển thị -->
+        <Frame  x:Name="ContentFrame" Grid.Row="0" utu:SafeArea.Insets="Top"/>
+
+        <!-- Thanh TabBar dưới cùng -->
+        <utu:TabBar x:Name="BottomTabBar"
+                    Grid.Row="1"
+                    VerticalAlignment="Bottom"
+                    utu:SafeArea.Insets="Bottom"
+                    SelectionChanged="BottomTabBar_OnSelectionChanged">
+
+            <utu:TabBarItem  Tag="order" >
+                <utu:TabBarItem.Icon>
+                    <FontIcon Glyph="&#xE14D;" /> <!-- ví dụ: Shop -->
+                </utu:TabBarItem.Icon>
+            </utu:TabBarItem>
+            <utu:TabBarItem  Tag="product" >
+                <utu:TabBarItem.Icon>
+                    <FontIcon Glyph="&#xE719;" /> <!-- ví dụ: Product Box -->
+                </utu:TabBarItem.Icon>
+            </utu:TabBarItem>
+            <utu:TabBarItem  Tag="cart" >
+                <utu:TabBarItem.Icon>
+                    <FontIcon Glyph="&#xE7BF;" /> <!-- Shopping Cart -->
+                </utu:TabBarItem.Icon>
+            </utu:TabBarItem>
+
+        </utu:TabBar>
+
+    </Grid>
+</Page>

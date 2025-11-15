@@ -1,0 +1,50 @@
+<Project Sdk="Uno.Sdk">
+    <PropertyGroup>
+
+        <!-- Uno Single Project Android -->
+        <TargetFramework>net9.0-android</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <UnoSingleProject>true</UnoSingleProject>
+
+        <!-- Android SDK -->
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <AndroidMinSdkVersion>21</AndroidMinSdkVersion>
+        <AndroidTargetSdkVersion>35</AndroidTargetSdkVersion>
+
+        <!-- Build Options -->
+        <RunAOTCompilation>false</RunAOTCompilation>
+        <AndroidPackageFormat>apk</AndroidPackageFormat>
+        <DebugSymbols>false</DebugSymbols>
+        <PublishTrimmed>false</PublishTrimmed>
+        <TrimMode>link</TrimMode>
+
+        <!-- Signing (debug signing mặc định) -->
+        <AndroidUseDebugKeystore>true</AndroidUseDebugKeystore>
+
+        <!-- App Info -->
+        <ApplicationTitle>AppBanHang</ApplicationTitle>
+        <ApplicationId>com.appbanhang</ApplicationId>
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <ApplicationVersion>1</ApplicationVersion>
+        <ApplicationPublisher>O=AppBanHang</ApplicationPublisher>
+        <Description>AppBanHang powered by Uno Platform.</Description>
+
+        <!-- Uno Features -->
+        <UnoFeatures>
+            Material;
+            Dsp;
+            Hosting;
+            Toolkit;
+            Logging;
+            Mvvm;
+            Configuration;
+            HttpKiota;
+            Serialization;
+            Localization;
+            Navigation;
+            ThemeService;
+            SkiaRenderer;
+        </UnoFeatures>
+
+    </PropertyGroup>
+</Project>

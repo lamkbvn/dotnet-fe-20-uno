@@ -1,0 +1,3 @@
+C:\Users\ADMIN\RiderProjects\AppBanHang\AppBanHang\bin\Release\net9.0-android\publish\com.appbanhang-Signed.apk
+C:\Users\ADMIN\RiderProjects\AppBanHang\AppBanHang\bin\Release\net9.0-android\publish\com.appbanhang.apk
+C:\Users\ADMIN\RiderProjects\AppBanHang\AppBanHang\bin\Release\net9.0-android\publish\_Microsoft.Android.Resource.Designer.dll
