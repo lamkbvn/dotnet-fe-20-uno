@@ -53,7 +53,7 @@ dotnet build -c Release -f net9.0-android
 
 ---
 
-### Lỗi build thì chạy lệnh dưới
+### Lỗi thì chạy lệnh dưới
 ```bash
 # Clean và rebuild
 dotnet clean
