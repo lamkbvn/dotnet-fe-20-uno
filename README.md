@@ -1,3 +1,4 @@
+### đọc app , presentation , model , services
 # 📱 Hướng dẫn Setup và Build App Bán Hàng - Uno Platform
 
 ## 🚀 Yêu cầu hệ thống
