@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ADMIN\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ADMIN\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.foundation\6.3.62\buildTransitive\Uno.Foundation.props" Condition="Exists('$(NuGetPackageRoot)uno.foundation\6.3.62\buildTransitive\Uno.Foundation.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winrt\6.3.62\buildTransitive\Uno.WinRT.props" Condition="Exists('$(NuGetPackageRoot)uno.winrt\6.3.62\buildTransitive\Uno.WinRT.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.6.1\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.6.1\buildTransitive\Uno.Fonts.Fluent.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui\6.3.62\buildTransitive\net9.0-android30.0\uno.winui.props" Condition="Exists('$(NuGetPackageRoot)uno.winui\6.3.62\buildTransitive\net9.0-android30.0\uno.winui.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.runtime.skia.android\6.3.62\build\Uno.WinUI.Runtime.Skia.Android.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.runtime.skia.android\6.3.62\build\Uno.WinUI.Runtime.Skia.Android.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.devserver\6.3.62\buildTransitive\Uno.WinUI.DevServer.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.devserver\6.3.62\buildTransitive\Uno.WinUI.DevServer.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui.hotdesign\1.16.109\build\Uno.UI.HotDesign.props" Condition="Exists('$(NuGetPackageRoot)uno.ui.hotdesign\1.16.109\build\Uno.UI.HotDesign.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.sdk.extras\6.1.1\buildTransitive\Uno.Sdk.Extras.props" Condition="Exists('$(NuGetPackageRoot)uno.sdk.extras\6.1.1\buildTransitive\Uno.Sdk.Extras.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.core\6.2.3\buildTransitive\Uno.Extensions.Core.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.core\6.2.3\buildTransitive\Uno.Extensions.Core.props')" />
+    <Import Project="$(NuGetPackageRoot)refit\7.2.22\buildTransitive\netstandard2.0\refit.props" Condition="Exists('$(NuGetPackageRoot)refit\7.2.22\buildTransitive\netstandard2.0\refit.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.1\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.1\build\Microsoft.NET.ILLink.Tasks.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_Foundation Condition=" '$(PkgUno_Foundation)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.foundation\6.3.62</PkgUno_Foundation>
+    <PkgUno_WinRT Condition=" '$(PkgUno_WinRT)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.winrt\6.3.62</PkgUno_WinRT>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.winui\6.3.62</PkgUno_WinUI>
+    <PkgUno_WinUI_DevServer Condition=" '$(PkgUno_WinUI_DevServer)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.winui.devserver\6.3.62</PkgUno_WinUI_DevServer>
+    <PkgUno_UI_HotDesign Condition=" '$(PkgUno_UI_HotDesign)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.ui.hotdesign\1.16.109</PkgUno_UI_HotDesign>
+    <PkgUno_Settings_DevServer Condition=" '$(PkgUno_Settings_DevServer)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.settings.devserver\1.6.3</PkgUno_Settings_DevServer>
+    <PkgUno_Dsp_Tasks Condition=" '$(PkgUno_Dsp_Tasks)' == '' ">C:\Users\ADMIN\.nuget\packages\uno.dsp.tasks\1.4.0</PkgUno_Dsp_Tasks>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\ADMIN\.nuget\packages\microsoft.net.illink.tasks\9.0.1</PkgMicrosoft_NET_ILLink_Tasks>
+  </PropertyGroup>
+</Project>
